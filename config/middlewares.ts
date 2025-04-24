@@ -18,7 +18,11 @@ export default [
     config: {
       enabled: true,
       headers: "*",
-      origin: ["http://localhost:5173", "https://labimerie.fr"],
+      origin: [
+        "http://localhost:5173",
+        "https://labimerie.fr",
+        "https://www.labimerie.fr",
+      ],
     },
   },
   "strapi::poweredBy",
