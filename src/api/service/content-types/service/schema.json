@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "longDescription": {
+      "type": "text"
+    },
+    "iconName": {
+      "type": "string"
+    },
+    "features": {
+      "type": "enumeration",
+      "enum": [
+        "Modélisation architecturale détaillée",
+        "Modélisation des systèmes MEP (mécanique etc..)",
+        "Modélisation structurelle",
+        "Détection de conflits",
+        "Documentation de construction précise",
+        "Définition et mise en œuvre du plan d'éxé BIM",
+        "Coordination des équipes multidisciplinaires",
+        "Gestion des échanges d'information",
+        "Contrôle qualité des modèles",
+        "Résolution de conflits techniques",
+        "Scan laser 3D haute précision",
+        "Photogrammétrie avancée",
+        "Conversion des nuages de points en modèles BIM",
+        "Documentation précise de l'existant",
+        "Support pour projets de rénovation et conserv"
+      ]
+    }
+  }
+}
